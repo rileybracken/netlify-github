@@ -1,43 +1,41 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
-  "version": "1.0.0",
+  "name": "blog",
+  "description": "'My blog'",
+  "version": "0.0.1",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
-  },
   "dependencies": {
-    "gatsby": "^0.12.39",
-    "lodash": "^4.17.2",
-    "moment": "^2.17.1",
-    "react-addons-shallow-compare": "^15.4.1",
-    "react-dates": "^4.1.0",
-    "react-helmet": "^3.2.2",
-    "react-responsive-grid": "^0.3.3",
+    "babel-plugin-lodash": "^3.2.11",
+    "bluebird": "^3.4.7",
+    "es6-object-assign": "^1.0.3",
+    "fs-extra": "^2.0.0",
+    "gatsby": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-link": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-parser-remark": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-parser-sharp": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-plugin-google-analytics": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-plugin-manifest": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-plugin-offline": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-plugin-preact": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-plugin-sharp": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-source-filesystem": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-filesystem": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark-copy-linked-files": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark-prismjs": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark-responsive-iframe": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark-responsive-image": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-remark-smartypants": "1.0.0-alpha12-alpha.1fdb9004",
+    "gatsby-typegen-sharp": "1.0.0-alpha12-alpha.1fdb9004",
+    "lodash": "^4.17.4",
+    "lodash-webpack-plugin": "^0.11.2",
+    "react-helmet": "^3.3.0",
     "react-typography": "^0.15.0",
-    "typography": "^0.15.0",
-    "typography-theme-wordpress-2016": "^0.15.0",
-    "underscore.string": "^3.2.3"
+    "sw-precache": "^5.0.0",
+    "typeface-alegreya": "0.0.2",
+    "typeface-alegreya-sans": "0.0.2",
+    "typography": "0.15.x",
+    "typography-plugin-code": "^0.15.2",
+    "typography-theme-de-young": "^0.15.7"
   },
-  "devDependencies": {
-    "gh-pages": "^0.12.0"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
-  }
+  "devDependencies": {}
 }

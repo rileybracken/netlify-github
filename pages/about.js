@@ -7,7 +7,7 @@ export default ({ data }) => {
 
   return (
     <DocumentTitle title={ siteTitle }>
-      <p>Home</p>
+      <p>About</p>
     </DocumentTitle>
   );
 }
